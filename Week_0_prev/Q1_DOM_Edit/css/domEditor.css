@@ -1,0 +1,67 @@
+.save {
+    border: 2px #0f7852 solid;
+    border-radius: 5px;
+    background: #298c68;
+    color: #fff;
+    padding: 3px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reset {
+    border: 2px #270a82 solid;
+    border-radius: 5px;
+    background: #296599;
+    color: #fff;
+    padding: 3px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.del {
+    border: 2px #820a0a solid;
+    border-radius: 5px;
+    background: #c61111;
+    color: #fff;
+    padding: 3px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#attrEditTool {
+    width: 313px;
+    padding: 10px;
+    position: absolute;
+    border-bottom: 2px #0f7852 solid;
+    box-shadow: #4f4c4c 2px 5px 5px;
+    z-index: 50;
+    text-align: center;
+}
+
+#attrEditAttr {
+    height: 500px;
+    margin-top: 55px;
+    z-index: 33;
+    padding: 10px;
+    overflow: auto;
+}
+
+#attrEditAttr .part {
+    user-select: none;
+}
+
+#attrEditAttr .part>div {
+    height: 23px;
+    margin-top: 6px;
+}
+
+#attrEditAttr label {
+    float: left;
+}
+
+#attrEditAttr input {
+    float: right;
+}

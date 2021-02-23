@@ -1,0 +1,51 @@
+{
+    "list": [{
+        "name": "a",
+        "attrs": [{
+                "name": "download",
+                "rule": ["download", "String", "", ""]
+            },
+            {
+                "name": "href",
+                "rule": ["String", "www.baidu.com", ""]
+            },
+            {
+                "name": "hreflang",
+                "rule": ["String", "", ""]
+            },
+            {
+                "name": "media",
+                "rule": ["String", "", ""]
+            },
+            {
+                "name": "rel",
+                "rule": ["String", "", ""]
+            },
+            {
+                "name": "target",
+                "rule": ["String", "", ""]
+            },
+            {
+                "name": "type",
+                "rule": ["String", "", ""]
+            },
+            {
+                "name": "html",
+                "rule": ["String", "", ""]
+            }
+        ],
+        "style": [{
+                "name": "width",
+                "rule": ["String", "", ""]
+            },
+            {
+                "name": "height",
+                "rule": ["String", "", ""]
+            }
+        ],
+        "event": [
+            { "click": "" }
+        ],
+        "html": ""
+    }]
+}
