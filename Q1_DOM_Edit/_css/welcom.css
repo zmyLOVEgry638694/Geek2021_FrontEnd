@@ -1,0 +1,13 @@
+#partMenu {
+    vertical-align: middle;
+}
+
+#partMenu li {
+    list-style: none;
+    cursor: pointer;
+}
+
+#partMenu li:hover {
+    list-style: none;
+    cursor: pointer;
+}
