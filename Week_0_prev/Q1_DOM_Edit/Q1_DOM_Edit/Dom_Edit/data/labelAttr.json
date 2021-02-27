@@ -1,0 +1,853 @@
+{
+    "list": [{
+            "name": "a",
+            "attrs": [{
+                    "name": "download",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "href",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "hreflang",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "media",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "rel",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "target",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "type",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "html",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "attr",
+            "attrs": [{
+                    "name": "download",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "href",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "hreflang",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "media",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "rel",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "target",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "type",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "html",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "input",
+            "attrs": [{
+                    "name": "autocomplete",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "autofocus",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "form",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formaction",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formenctype",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formmethod",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formnovalidate",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formtarget",
+                    "rule": ["String", "", ""]
+                },
+
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                },
+
+                {
+                    "name": "list",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "max",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "maxlength",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "min",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "multiple",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "name",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "pattern",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "placeholder",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "required",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "step",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                }
+
+
+
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "button",
+            "attrs": [{
+                    "name": "autofocus",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "form",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "formaction",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formenctype",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formmethod",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "formnovalidate",
+                    "rule": ["String", "", ""]
+                },
+
+                {
+                    "name": "formtarget",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "img",
+            "attrs": [{
+                    "name": "height",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "ismap",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "longdesc",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "usemap",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "textarea",
+            "attrs": [{
+                    "name": "autofocus",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "form",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "maxlength",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "placeholder",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "required",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "wrap",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "table",
+            "attrs": [{
+                    "name": "border",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "cellpadding",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "frame",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "rules",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "summary",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "thead",
+            "attrs": [{
+                    "name": "align",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "char",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "charoff",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "valign",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "tbody",
+            "attrs": [{
+                    "name": "align",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "char",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "charoff",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "valign",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "tfoot",
+            "attrs": [{
+                    "name": "align",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "char",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "charoff",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "valign",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "tr",
+            "attrs": [{
+                    "name": "align",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "bgcolor",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "char",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "charoff",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "valign",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "td",
+            "attrs": [{
+                    "name": "abbr",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "align",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "axis",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "char",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "charoff",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "headers",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "rowspan",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "scope",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "valign",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "th",
+            "attrs": [{
+                    "name": "abbr",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "align",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "axis",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "char",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "charoff",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "colspan",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "headers",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "rowspan",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "scope",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "valign",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "ol",
+            "attrs": [{
+                    "name": "reversed",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "start",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "type",
+                    "rule": ["String", "", ""]
+                }
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "select",
+            "attrs": [{
+                    "name": "autofocus",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "disabled",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "form",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "multiple",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "name",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "required",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "size",
+                    "rule": ["String", "", ""]
+                }
+
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "option",
+            "attrs": [{
+                    "name": "disabled",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "label",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "selected",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "value",
+                    "rule": ["String", "", ""]
+                }
+
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "div",
+            "attrs": [{
+                    "name": "disabled",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "label",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "selected",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "value",
+                    "rule": ["String", "", ""]
+                }
+
+
+            ],
+            "style": [{
+                    "name": "display",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "position",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "float",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "margin",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "padding",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "border",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "color",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "font-size",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "font-weight",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "text-align",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "background",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "z-index",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        },
+        {
+            "name": "span",
+            "attrs": [{
+                    "name": "disabled",
+                    "rule": ["download", "String", "", ""]
+                },
+                {
+                    "name": "label",
+                    "rule": ["String", "www.baidu.com", ""]
+                },
+                {
+                    "name": "selected",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "value",
+                    "rule": ["String", "", ""]
+                }
+
+
+            ],
+            "style": [{
+                    "name": "width",
+                    "rule": ["String", "", ""]
+                },
+                {
+                    "name": "height",
+                    "rule": ["String", "", ""]
+                }
+            ],
+            "event": [
+                { "click": "" }
+            ],
+            "html": ""
+        }
+
+
+    ]
+}
