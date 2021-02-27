@@ -1,0 +1,12 @@
+class:
+增加：document.getElementById("myDIV").classList.add("mystyle", "anotherClass", "thirdClass");
+去除：document.getElementById("myDIV").classList.remove("mystyle");
+替换：document.getElementById("myDIV").classList.replace("someClassName","otherClassName");
+
+
+
+常用：
+div span input button h1-h6 img br textarea label
+table thead tbody tfoot tr td th 
+ul ol li 
+select option
