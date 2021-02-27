@@ -1,0 +1,37 @@
+:root {
+    --radius: 99;
+}
+
+#lightBox {
+    width: 200px;
+    height: 620px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border: 6px solid #ddd;
+    border-image: -webkit-linear-gradient(to left top, #205fd2, #1de31a) 30 30;
+    border-image: -moz-linear-gradient(to left top, #205fd2, #1de31a) 30 30;
+    border-image: linear-gradient(to left top, #205fd2, #1de31a) 30 30;
+}
+
+span {
+    border-radius: calc(var(--radius)*1px);
+    width: calc(var(--radius)*2px);
+    height: calc(var(--radius)*2px);
+    align-content: center;
+    background: #EEE;
+    transition: opacity 1s linear;
+}
+
+.green.light {
+    background: linear-gradient(to left top, #1de31a, #165438);
+}
+
+.light.yellow {
+    background: linear-gradient(to left top, #b1bd06, #c4e31a87);
+}
+
+.light.red {
+    background: linear-gradient(to left top, #d2202f, #940303);
+}
