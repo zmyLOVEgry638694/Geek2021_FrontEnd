@@ -1,0 +1,3 @@
+function creatFloatWindow(id) {
+
+}
