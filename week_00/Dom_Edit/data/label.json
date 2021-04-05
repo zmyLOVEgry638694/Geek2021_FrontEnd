@@ -1,0 +1,217 @@
+getjson({
+
+    "list": [{
+            "name": "A",
+            "labels": [
+                "a",
+                "attr",
+                "address",
+                "area",
+                "article",
+                "aside",
+                "audio"
+            ]
+        },
+        {
+            "name": "B",
+            "labels": [
+                "b",
+                "base",
+                "bdi",
+                "bdo",
+                "blockquote",
+                "br",
+                "button"
+            ]
+        },
+        {
+            "name": "C",
+            "labels": [
+                "canvas",
+                "cite",
+                "code",
+                "col",
+                "colgroup"
+            ]
+        },
+        {
+            "name": "D",
+            "labels": [
+                "datalist",
+                "dd",
+                "del",
+                "details",
+                "dfn",
+                "dialog",
+                "div",
+                "dl",
+                "dt"
+            ]
+        },
+        {
+            "name": "E",
+            "labels": [
+                "em",
+                "embed"
+            ]
+        },
+        {
+            "name": "F",
+            "labels": [
+                "fieldset",
+                "figcaption",
+                "figure",
+                "footer",
+                "form"
+            ]
+        },
+        {
+            "name": "H",
+            "labels": [
+                "head",
+                "header",
+                "hgroup",
+                "H1",
+                "H2",
+                "H3",
+                "H4",
+                "H5",
+                "H6",
+                "hr",
+                "html"
+            ]
+        },
+        {
+            "name": "I",
+            "labels": [
+                "i",
+                "iframe",
+                "img",
+                "input",
+                "ins"
+            ]
+        },
+        {
+            "name": "K",
+            "labels": [
+                "kbd"
+            ]
+        },
+        {
+            "name": "L",
+            "labels": [
+                "label",
+                "legend",
+                "li",
+                "link"
+            ]
+        },
+        {
+            "name": "M",
+            "labels": [
+                "main",
+                "map",
+                "mark",
+                "menu",
+                "meta",
+                "meter"
+            ]
+        },
+        {
+            "name": "N",
+            "labels": [
+                "nav",
+                "noscript"
+            ]
+        },
+        {
+            "name": "O",
+            "labels": [
+                "object",
+                "ol",
+                "optgroup",
+                "option",
+                "output"
+            ]
+        },
+        {
+            "name": "P",
+            "labels": [
+                "p",
+                "param",
+                "pre",
+                "picture",
+                "progress"
+            ]
+        },
+        {
+            "name": "Q",
+            "labels": [
+                "q"
+            ]
+        },
+        {
+            "name": "R",
+            "labels": [
+                "rp",
+                "rt",
+                "ruby"
+            ]
+        },
+        {
+            "name": "S",
+            "labels": [
+                "s",
+                "samp",
+                "script",
+                "section",
+                "select",
+                "small",
+                "source",
+                "span",
+                "strong",
+                "style",
+                "sub",
+                "summary",
+                "sup"
+            ]
+        },
+        {
+            "name": "T",
+            "labels": [
+                "table",
+                "tbody",
+                "td",
+                "textarea",
+                "tfoot",
+                "th",
+                "thead",
+                "time",
+                "title",
+                "tr",
+                "track"
+            ]
+        },
+        {
+            "name": "U",
+            "labels": [
+                "u",
+                "ul"
+            ]
+        },
+        {
+            "name": "V",
+            "labels": [
+                "var",
+                "video"
+            ]
+        },
+        {
+            "name": "W",
+            "labels": [
+                "wbr"
+            ]
+        }
+    ]
+
+});

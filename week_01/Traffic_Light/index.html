@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     :root {
+        --radius: 99;
+    }
+    
+    #lightBox {
+        width: 200px;
+        height: 620px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        border: 6px solid #ddd;
+        border-image: -webkit-linear-gradient(to left top, #205fd2, #1de31a) 30 30;
+        border-image: -moz-linear-gradient(to left top, #205fd2, #1de31a) 30 30;
+        border-image: linear-gradient(to left top, #205fd2, #1de31a) 30 30;
+    }
+    
+    span {
+        border-radius: calc(var(--radius)*1px);
+        width: calc(var(--radius)*2px);
+        height: calc(var(--radius)*2px);
+        align-content: center;
+        background: #EEE;
+        transition: opacity 1s linear;
+    }
+    
+    .green.light {
+        background: linear-gradient(to left top, #1de31a, #165438);
+    }
+    
+    .light.yellow {
+        background: linear-gradient(to left top, #b1bd06, #c4e31a87);
+    }
+    
+    .light.red {
+        background: linear-gradient(to left top, #d2202f, #940303);
+    }
+</style>
+
+<body>
+    <div id="lightBox">
+        <span class="green"></span>
+        <span class="yellow"></span>
+        <span class="red"></span>
+    </div>
+    <div>
+        <button id="next">NEXT</button>
+    </div>
+</body>
+<script>
+    window.onload = () => {
+        go();
+    }
+
+    let light = (color) => {
+        let lights = document.querySelectorAll("#lightBox span");
+        lights.forEach(lightT => {
+            if (lightT.classList.contains(color)) {
+                lightT.classList.add("light");
+            } else {
+                lightT.classList.remove("light");
+            }
+        });
+    }
+
+    let sleep = (time) => {
+        return new Promise((resolve, reject) => {
+            setTimeout(resolve, time);
+        })
+    }
+
+    let happend = (element, eventName) => {
+        return new Promise((resolve, reject) => {
+            element.addEventListener(eventName, resolve, {
+                once: true
+            })
+        })
+    }
+
+
+    async function go() {
+        while (true) {
+            light("green");
+            await happend(document.getElementById("next"), "click");
+            light("yellow");
+            await sleep(2000);
+            light("red");
+            await happend(document.getElementById("next"), "click");
+        }
+    }
+
+
+    //TEST_1 CALLBACK
+    // let go = () => {
+    //     light("green");
+    //     setTimeout(() => {
+    //         // wait();
+    //         light("yellow");
+    //         setTimeout(() => {
+    //             light("red");
+    //             setTimeout(() => {
+    //                 go();
+    //             }, 1000);
+    //         }, 2000);
+    //     }, 3000);
+    // }
+
+    //TEST_2 MINE
+    // let go = () => {
+    //     light("green");
+    //     setTimeout(() => {
+    //         wait();
+    //     }, 3000);
+    // }
+    // let wait = () => {
+    //     light("yellow");
+    //     setTimeout(() => {
+    //         stop();
+    //     }, 2000);
+    // }
+    // let stop = () => {
+    //     light("red");
+    //     setTimeout(() => {
+    //         go();
+    //     }, 1000);
+    // }
+
+    //TEST_3  PROMISE
+    // let sleep = (time) => {
+    //     return new Promise((resolve, reject) => {
+    //         setTimeout(resolve, time);
+    //     })
+    // }
+    // let go = () => {
+    //     light("green");
+    //     sleep(3000).then(() => {
+    //         light("yellow");
+    //         return sleep(2000);
+    //     }).then(() => {
+    //         light("red");
+    //         return sleep(1000);
+    //     }).then(go)
+    // }
+
+    //TEST_4 ASYNC
+    // let sleep = (time) => {
+    //     return new Promise((resolve, reject) => {
+    //         setTimeout(resolve, time);
+    //     })
+    // }
+    // async function go() {
+    //     while (true) {
+    //         light("green");
+    //         await sleep(3000);
+    //         light("yellow");
+    //         await sleep(2000);
+    //         light("red");
+    //         await sleep(1000);
+    //     }
+    // }
+
+    //TEST_5 EVENT
+</script>
+
+</html>

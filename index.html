@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+<link rel="stylesheet" href="./_css/welcome.css"></link>
+<link rel="stylesheet" href="./_css/font-awesome.min.css"></link>
+
+<body>
+    <!-- width="320" height="240" -->
+    <!-- <canvas class="rainDay"></canvas> -->
+    <div class="main">
+        <div class="videoZ">
+            <div class="weatherTool">
+                <div id="title">
+                    <i id="position" class="fa fa-street-view fa-fw"></i>
+                    <span id="wendu"></span>
+                    <span id="wenduRange"></span>
+                    <span id="type"></span>
+                    <span id="wind"></span>
+                    <i id="next" onclick="findNext()" class="fa fa-chevron-circle-right fa-fw"></i>
+                    <i id="date" onclick="returnToday()" class="fa fa-calendar fa-fw"></i>
+                    <i id="prev" onclick="findPrev()" class="fa fa-chevron-circle-left fa-fw"></i>
+                </div>
+            </div>
+            <video id="backgroundV" autoplay="autoplay" muted loop width="600px" height="345px">
+                <source src="./_media/video/A4.mp4" type="video/mp4">
+            </video>
+            <br>
+            <audio id="backgroundA" preload="auto" loop>
+                <source src="./_media/audio/YYZT/Rain.mp3" type="audio/mp3">
+            </audio>
+            <div class="audioTool">
+                <i id="musicM" class="fa fa-music fa-spain fa-fw" accesskey="32"></i>
+                <i id="nextM" class="fa fa-step-forward fa-fw" accesskey="39"></i>
+            </div>
+
+        </div>
+        <div></div>
+        <div class="menu">
+            <div class="menuMain">
+                <ul class="partMenu" id="week_00">预习
+                    <li id="Dom_Edit">DOM编辑器</li>
+                    <li id='Form_Edit'>自定义表单</li>
+                </ul>
+                <ul class="partMenu" id="week_01">第一周
+                    <li id='TicTacToe'>井字棋(TicTacToe)</li>
+                    <li id='Gomoku'>五子棋</li>
+                    <li id='Traffic_Light'>红绿灯</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第二周
+                    <li id='Map'>地图编辑器</li>
+                </ul>
+                <ul class="partMenu" id="week_03">第三周
+                    <li id='AST'>AST</li>
+                </ul>
+                <ul class="partMenu" id="week_04">第四周
+                    <li id='StringHandle'>字符串算法</li>
+                </ul>
+                <ul class="partMenu" id="week_05">第五周
+                    <li id='Proxy'>Proxy与双向绑定</li>
+                    <li id='Range'>Range实现拖拽</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第六周
+                    <li id='Map'>JS</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第七周
+                    <li id='Map'>JS</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第八周
+                    <li id='Map'>浏览器</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第九周
+                    <li id='Map'>浏览器</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十周
+                    <li id='Map'>浏览器</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十一周
+                    <li id='Map'>CSS</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十二周
+                    <li id='Map'>CSS</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十三周
+                    <li id='Map'>HTML、API</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十四周
+                    <li id='Map'>组件化</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十五周
+                    <li id='Map'>组件化</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十六周
+                    <li id='Map'>组件化</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十七周
+                    <li id='Map'>工具链</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十八周
+                    <li id='Map'>工具链</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第十九周
+                    <li id='Map'>发布系统</li>
+                </ul>
+                <ul class="partMenu" id="week_02">第二十周
+                    <li id='Map'>发布系统</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src="./js/music.js"></script>
+<script src="./js/initWeather.js"></script>
+<script>
+    let audioZ = document.getElementById("backgroundA");
+
+    window.onload = () => {
+        let partList = document.getElementsByTagName("ul");
+        for (let indexP = 0; indexP < partList.length; indexP++) {
+            let itemList = partList[indexP].getElementsByTagName("li");
+            for (let indexI = 0; indexI < itemList.length; indexI++) {
+                let item = itemList[indexI];
+                item.addEventListener("click", () => {
+                    window.location.href = `${partList[indexP].id}/${itemList[indexI].id}/index.html`
+                })
+            }
+        };
+        initPlayer();
+        bindData();
+        initWeather();
+    }
+</script>
+
+</html>
